@@ -2,7 +2,7 @@ async function initMap() {
   const ibague = { lat: 4.4389, lng: -75.2322 };
 
   try {
-    const response = await fetch('../js/map_style.json');
+    const response = await fetch('js/map_style.json');
     const mapStyle = await response.json();
 
     const map = new google.maps.Map(document.getElementById("map"), {
