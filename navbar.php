@@ -25,7 +25,7 @@
             </li>
           </ul>
           <form class="d-flex">
-            <button class="btn btn-outline-light font" type="submit">
+            <button class="btn btn-outline-light font" type="button" id="contactBtn">
               Contáctanos
             </button>
           </form>
