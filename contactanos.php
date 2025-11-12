@@ -16,4 +16,4 @@
                 </ul>
             </div>
         </div>
-        <script src="js/main2.js" async defer></script>
+        <script src="./js/main.js" async defer></script>
