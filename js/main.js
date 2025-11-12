@@ -27,5 +27,6 @@ formulario.addEventListener("submit", function (event) {
   const nuevaPersona = new persona(nombre, correo);
   personas.push(nuevaPersona);
   console.log(personas);
+  actualizarpersonaList();
   formulario.reset();
 });
