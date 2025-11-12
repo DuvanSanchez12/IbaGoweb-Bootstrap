@@ -1,15 +1,4 @@
 <?php include 'header.php'; ?>    
-<?php if (isset($_GET['success'])): ?>
-  <div class="alert alert-success alert-dismissible fade show text-center p-5 my-5" role="alert">
-    <strong>¡Gracias!</strong> Te has suscrito correctamente a las notificaciones de IbaGO 🎉
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-  </div>
-<?php elseif (isset($_GET['error'])): ?>
-  <div class="alert alert-danger alert-dismissible fade show text-center pt-5 my-5" role="alert">
-    <strong>¡Error!</strong> Ocurrió un problema al guardar tus datos. Inténtalo nuevamente.
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-  </div>
-<?php endif; ?>
 <div id="inicio" class="container my-5 pt-4 position-relative">
       <div
         class="bg-dark border-dark rounded h-100 shadow-sm overflow-hidden position-relative"

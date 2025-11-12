@@ -18,9 +18,7 @@
         </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/map.js"></script>
-    <script src="js/card_contact.js"></script>
     <script
       async
       defer
