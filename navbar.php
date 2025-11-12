@@ -25,7 +25,7 @@
             </li>
           </ul>
           <form class="d-flex">
-            <button class="btn btn-outline-light font" type="button" id="contactBtn">
+            <button onclick="window.location.href='contacto.html'" class="btn btn-outline-dark">
               Contáctanos
             </button>
           </form>

@@ -1,10 +1,4 @@
     <footer class="bg-light text-center py-5 mt-5">
-        <h5 class="mb-3 text-dark">Conéctate con nosotros</h5>
-        <form class="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-2 mb-4" action="server.php" method= "post" >
-            <input type="text" name="nombre" class="form-control w-auto" placeholder="Nombre" required style="max-width: 220px;">
-            <input type="email" name="correo" class="form-control w-auto" placeholder="Correo" required style="max-width: 260px;">
-            <button type="submit" class="btn btn-outline-dark">Suscribirme</button>
-        </form>
         <div class="d-flex tech-icons justify-content-center mb-3">
             <a href="https://github.com/DuvanSanchez12" target="_blank" class="mx-2">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="28" alt="GitHub" />
@@ -24,6 +18,7 @@
         </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/map.js"></script>
     <script src="js/card_contact.js"></script>
     <script
